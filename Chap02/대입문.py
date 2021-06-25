@@ -10,7 +10,7 @@
 
 # 사용자가 일한 시간과 시급을 프롬프트에 입력시, 임금을 계산하는 프로그램
 
-hour = input('일한 시간을 입력하세요: ')
+hour = input('일한 시간을 입력하세요: ')  # input은 String
 h = float(hour)     # string을 float으로 형변환
 rate = input('당신의 시급을 입력하세요: ')
 r = float(rate)

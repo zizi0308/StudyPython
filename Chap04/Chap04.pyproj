@@ -2,15 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>459a2ce6-9299-4c0c-8a50-6a36db484f9e</ProjectGuid>
+    <ProjectGuid>d651b002-f06e-4180-b86c-d1ba118f0ba3</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>조건문.py</StartupFile>
+    <StartupFile>함수_ex.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>Chap03</Name>
-    <RootNamespace>Chap03</RootNamespace>
+    <Name>Chap04</Name>
+    <RootNamespace>Chap04</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,10 +21,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="예외처리.py">
+    <Compile Include="함수.py" />
+    <Compile Include="함수_ex.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="조건문.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
