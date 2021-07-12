@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>2da7ed8c-e98a-47c4-b70d-3167184505b3</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>파일열기.py</StartupFile>
+    <StartupFile>파일변환출력프로그램.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,16 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="파일변환출력프로그램.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="파일열기.py" />
+    <Compile Include="파일출력.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="mbox-short.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
