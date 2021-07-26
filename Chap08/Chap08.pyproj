@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>eaeff7f5-ef76-452c-a06a-8fa2008aca8d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>리스트활용.py</StartupFile>
+    <StartupFile>파싱과자료읽기.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,9 +22,18 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="리스트.py" />
-    <Compile Include="리스트활용.py">
+    <Compile Include="리스트활용2.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="리스트활용1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="파싱과자료읽기.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="mbox-short.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
