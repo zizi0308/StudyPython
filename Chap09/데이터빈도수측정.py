@@ -37,7 +37,7 @@ print(di)
 
 #print(bigword, bigcount)
 
-largest = -1
+largest = -1    # 통상적으로 value는 양수값이므로 초깃값을 -1로 설정해주면 편함
 for k, v in di.items():
     if v > largest:
         largest = v
