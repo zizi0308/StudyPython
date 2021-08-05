@@ -13,9 +13,12 @@ print(counts)   # 히스토그램 출력
 
 
 # The get method for dictionaries  # counts.get(name, 0) + 1 << 관용적인 코드
+if name in counts:
+    x = counts[name]    # 대상이 안에 있으면 어떤 일을 하고, 대상의 현재값을 회수함
+else : 0                # 그렇지 않은 경우 기본 값을 0으로 설정 >> 초기 설정값으로 대상이 딕셔너리에 없다는 뜻
 
 # 위와 같은 식을 get 함수를 통해 간결화 할 수 있음
-x = counts.get(name, 0)
+x = counts.get(name, 0) # get의 매개변수는 키, 기본값 >> 이미 존재하면 키 반환, 존재안하면 기본값으로 설정
 counts = dict() 
 names = ['csev', 'cwen', 'csev', 'ziqian', 'cwen']
 for name in names: 

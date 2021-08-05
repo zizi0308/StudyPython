@@ -31,7 +31,7 @@ jjj = {'chuck' : 1, 'fred' : 42, 'jan' : 100}
 for aaa,bbb in jjj.items():
     print(aaa, bbb)
 
-# 텍스트파일을 받고 연 다음, 문장을 단어단위로 쪼개 그 단어에 대한 빈도수를 측정(히스토그램)
+# 텍스트 파일을 받고 연 다음, 문장을 단어단위로 쪼개 그 단어에 대한 빈도수를 측정(히스토그램)
 name = input('파일을 선택하세요 : ')
 handle = open(name)
 

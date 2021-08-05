@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>4984d3da-5c70-444f-8027-a9c497562138</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>딕셔너리정렬.py</StartupFile>
+    <StartupFile>딕셔너리정렬ex.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -24,7 +24,15 @@
     <Compile Include="딕셔너리정렬.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="딕셔너리정렬ex.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="튜플.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="clown.txt" />
+    <Content Include="intro.txt" />
+    <Content Include="romeo.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
